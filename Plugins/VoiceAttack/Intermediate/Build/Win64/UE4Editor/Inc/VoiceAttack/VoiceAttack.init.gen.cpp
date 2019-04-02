@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeVoiceAttack_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD776EFE4,
-				0xDD7D329D,
+				0xE39AB326,
+				0xA0871117,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -1,51 +1,9 @@
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Definitions.VoiceAttack.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\ServerControl.gen.cpp
+C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\VoiceAttackBPLibrary.gen.cpp
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/ServerControl.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack\Private\TCPServerImp.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\string
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\ios
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocnum
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\climits
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cmath
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xtgmath.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdio
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\streambuf
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xiosbase
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocale
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cstring
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\stdexcept
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory0
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdint
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\limits
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\ymath.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cfloat
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cwchar
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xutility
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\utility
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\iosfwd
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xatomic0.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\typeinfo
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_typeinfo.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xlocinfo.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\locale.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\memory
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xmemory
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xfacet
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\system_error
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\cerrno
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xcall_once.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xerrc.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\share.h
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring_insert.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Sockets/Public/Sockets.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\SocketTypes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Networking/Public/Networking.h
+C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/VoiceAttackBPLibrary.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Misc/MonolithicHeaderBoilerplate.h
@@ -112,25 +70,6 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\UObject/Se
 c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\UObject/VRObjectVersion.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Misc/OutputDeviceConsole.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Misc/MonitoredProcess.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\SocketSubsystem.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\AddressInfoTypes.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4SubnetMask.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Address.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Endpoint.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Subnet.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/Steam/SteamEndpoint.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/INetworkingModule.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/TcpSocketBuilder.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/TcpListener.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketReceiver.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketSender.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketBuilder.h
-c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\intermediate\build\win64\ue4editor\inc\voiceattack\ServerControl.generated.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\VoiceAttack.init.gen.cpp
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\VoiceAttackBPLibrary.gen.cpp
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/VoiceAttackBPLibrary.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\coreuobject\public\UObject/ErrorException.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\coreuobject\public\UObject/UObjectAllocator.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\coreuobject\public\Misc/TextBuffer.h
@@ -740,6 +679,23 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/I
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SSlider.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Widgets/Input/SComboBox.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\slate\public\Framework/Docking/LayoutService.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Networking\Public\Networking.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\Sockets.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\SocketTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Sockets\Public\SocketSubsystem.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\AddressInfoTypes.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4SubnetMask.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Address.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Endpoint.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/IPv4/IPv4Subnet.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/Steam/SteamEndpoint.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Interfaces/INetworkingModule.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/TcpSocketBuilder.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/TcpListener.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketReceiver.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketSender.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketBuilder.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows\AllowWindowsPlatformTypes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h

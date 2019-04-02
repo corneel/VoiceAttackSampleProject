@@ -32,6 +32,9 @@ public:
 	FTCPServer *tcpServer = NULL;
 
 	UFUNCTION(BlueprintCallable, Category = "TCPServer")
+		void StartRunning();
+
+	UFUNCTION(BlueprintCallable, Category = "TCPServer")
 	void SetMessage(FString message);
 
 	UFUNCTION(BlueprintPure, Category = "TCPServer")

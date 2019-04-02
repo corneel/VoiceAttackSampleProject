@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_GetMessage();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_SendMessage();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_SetMessage();
+	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_StartRunning();
 // End Cross Module References
 	void AServerControl::StaticRegisterNativesAServerControl()
 	{
@@ -30,6 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 			{ "GetMessage", &AServerControl::execGetMessage },
 			{ "SendMessage", &AServerControl::execSendMessage },
 			{ "SetMessage", &AServerControl::execSetMessage },
+			{ "StartRunning", &AServerControl::execStartRunning },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -168,6 +170,29 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AServerControl_StartRunning_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AServerControl_StartRunning_Statics::Function_MetaDataParams[] = {
+		{ "Category", "TCPServer" },
+		{ "ModuleRelativePath", "Public/ServerControl.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AServerControl_StartRunning_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AServerControl, nullptr, "StartRunning", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AServerControl_StartRunning_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_StartRunning_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AServerControl_StartRunning()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AServerControl_StartRunning_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AServerControl_NoRegister()
 	{
 		return AServerControl::StaticClass();
@@ -204,6 +229,7 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		{ &Z_Construct_UFunction_AServerControl_GetMessage, "GetMessage" }, // 1675977221
 		{ &Z_Construct_UFunction_AServerControl_SendMessage, "SendMessage" }, // 2678485239
 		{ &Z_Construct_UFunction_AServerControl_SetMessage, "SetMessage" }, // 3094980982
+		{ &Z_Construct_UFunction_AServerControl_StartRunning, "StartRunning" }, // 1760350379
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AServerControl_Statics::Class_MetaDataParams[] = {
@@ -264,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AServerControl, 3773743307);
+	IMPLEMENT_CLASS(AServerControl, 3234538989);
 	template<> VOICEATTACK_API UClass* StaticClass<AServerControl>()
 	{
 		return AServerControl::StaticClass();

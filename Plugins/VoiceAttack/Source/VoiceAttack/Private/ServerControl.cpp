@@ -21,7 +21,7 @@ AServerControl::AServerControl()
 void AServerControl::BeginPlay()
 {
 	Super::BeginPlay();
-	Init();
+	//Init();
 }
 
 void AServerControl::EndPlay(const EEndPlayReason::Type EndPlayReason)
@@ -39,7 +39,7 @@ void AServerControl::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-bool AServerControl::Init()
+void AServerControl::StartRunning()
 {
 
 	if (tcpServer == NULL)
@@ -53,8 +53,6 @@ bool AServerControl::Init()
 	tcpServer->ipAddressIn = setIpAddress;
 
 	tcpServer->portNum = setPortNum;
-
-	return true;
 }
 
 bool AServerControl::SendMessage(FString messageIn, FString& messageOut)
