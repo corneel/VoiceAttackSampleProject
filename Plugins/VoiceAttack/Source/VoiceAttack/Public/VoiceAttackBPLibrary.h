@@ -24,41 +24,6 @@
 #include "VoiceAttackBPLibrary.generated.h"
 
 UCLASS(BlueprintType)
-class USocket : public UObject
-{
-	GENERATED_BODY()
-public:
-	bool SetSocket(FSocket* Socket);
-	FSocket* GetSocket();
-
-private:
-	FSocket * _Socket;
-
-};
-
-UCLASS()
-class UVoiceAttackSocketBPLibrary : public UBlueprintFunctionLibrary
-{
-	GENERATED_UCLASS_BODY()
-
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Connect to a TCP server", Keywords = "Socket tcp connect"), Category = "VoiceAttack")
-		static USocket* Connect(FString IP, int32 port, bool &success);
-
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Send message to the server", Keywords = "Socket TCP send"), Category = "VoiceAttack")
-		static bool SendMessage(USocket* Connection, FString Message);
-
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Get message from server", Keywords = "Socket TCP get"), Category = "VoiceAttack")
-		static bool GetMessage(USocket* Connection, FString &Message);
-
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "HasPendingData", Keywords = "Socket test if there is data to get"), Category = "VoiceAttack")
-		static bool HasPendingData(USocket* Connection);
-
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Close TCP connection", Keywords = "Socket close connection"), Category = "VoiceAttack")
-		static bool CloseConnection(USocket* Connection);
-
-};
-
-UCLASS(BlueprintType)
 class UJSONHandle : public UObject
 {
 	GENERATED_BODY()
@@ -139,32 +104,9 @@ class UVoiceAttackBPLibrary : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable, meta = (DisplayName = "VoiceAttackListVoices", Keywords = "VoiceAttack ListVoices"), Category = "VoiceAttack")
 		static void VoiceAttackListVoices(TArray<FString>& Voices);
 
-	FSocket* ListenerSocket;
-	FSocket* ConnectionSocket;
-	FIPv4Endpoint RemoteAddressForConnection;
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "StartTCPReceiver", Keywords = "VoiceAttack Start TCP Receiver"), Category = "VoiceAttack")
-	bool StartTCPReceiver(
-		const FString& YourChosenSocketName,
-		const FString& TheIP,
-		const int32 ThePort
-	);
-
-	FSocket* CreateTCPConnectionListener(
-		const FString& YourChosenSocketName,
-		const FString& TheIP,
-		const int32 ThePort,
-		const int32 ReceiveBufferSize = 2 * 1024 * 1024
-	);
-
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "TCPConnectionListener", Keywords = "VoiceAttack TCP Connection Listener"), Category = "VoiceAttack")
-		void TCPConnectionListener(FString& Message);
-
-	void TCPSocketListener(FString& Message);
-	bool FormatIP4ToNumber(const FString& TheIP, uint8(&Out)[4]);
 	FTimerHandle fhandle;
 
 private:
-	//TSharedPtr<FJsonObject> JsonObject;
-	/*TArray<TSharedPtr<FJsonValue>> JsonObjectArray;*/
+
 };

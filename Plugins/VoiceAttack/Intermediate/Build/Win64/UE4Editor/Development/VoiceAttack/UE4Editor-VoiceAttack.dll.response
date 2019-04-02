@@ -33,6 +33,9 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Intermediate\Build\Win64\VoiceAttackSampleProEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\ServerControl.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\TCPServerImp.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\VoiceAttackBPLibrary.cpp.obj"
 "C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.cpp.obj"
 "C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.gen.cpp.obj"
 "C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Default.rc2.res"

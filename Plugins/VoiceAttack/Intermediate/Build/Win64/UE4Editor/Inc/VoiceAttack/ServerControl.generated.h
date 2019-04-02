@@ -8,32 +8,12 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UFSocket;
 #ifdef VOICEATTACK_ServerControl_generated_h
 #error "ServerControl.generated.h already included, missing '#pragma once' in ServerControl.h"
 #endif
 #define VOICEATTACK_ServerControl_generated_h
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execSendSockMessage) \
-	{ \
-		P_GET_OBJECT(UFSocket,Z_Param_sock); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_message); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SendSockMessage(Z_Param_sock,Z_Param_message); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execClientConnections) \
-	{ \
-		P_GET_TARRAY_REF(UFSocket*,Z_Param_Out_Clients); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ClientConnections(Z_Param_Out_Clients); \
-		P_NATIVE_END; \
-	} \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSendMessage) \
 	{ \
@@ -71,26 +51,7 @@ class UFSocket;
 	}
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSendSockMessage) \
-	{ \
-		P_GET_OBJECT(UFSocket,Z_Param_sock); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_message); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SendSockMessage(Z_Param_sock,Z_Param_message); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execClientConnections) \
-	{ \
-		P_GET_TARRAY_REF(UFSocket*,Z_Param_Out_Clients); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ClientConnections(Z_Param_Out_Clients); \
-		P_NATIVE_END; \
-	} \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSendMessage) \
 	{ \
@@ -128,7 +89,7 @@ class UFSocket;
 	}
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_INCLASS_NO_PURE_DECLS \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAServerControl(); \
 	friend struct Z_Construct_UClass_AServerControl_Statics; \
@@ -137,7 +98,7 @@ public: \
 	DECLARE_SERIALIZER(AServerControl)
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_INCLASS \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAServerControl(); \
 	friend struct Z_Construct_UClass_AServerControl_Statics; \
@@ -146,7 +107,7 @@ public: \
 	DECLARE_SERIALIZER(AServerControl)
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_STANDARD_CONSTRUCTORS \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AServerControl(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AServerControl) \
@@ -159,7 +120,7 @@ private: \
 public:
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_ENHANCED_CONSTRUCTORS \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AServerControl(AServerControl&&); \
@@ -170,26 +131,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AServerControl); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AServerControl)
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_PRIVATE_PROPERTY_OFFSET
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_12_PROLOG
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_GENERATED_BODY_LEGACY \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_PRIVATE_PROPERTY_OFFSET
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_11_PROLOG
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_PRIVATE_PROPERTY_OFFSET \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_RPC_WRAPPERS \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_INCLASS \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_STANDARD_CONSTRUCTORS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_PRIVATE_PROPERTY_OFFSET \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_RPC_WRAPPERS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_INCLASS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_GENERATED_BODY \
+#define VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_PRIVATE_PROPERTY_OFFSET \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_INCLASS_NO_PURE_DECLS \
-	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_15_ENHANCED_CONSTRUCTORS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_PRIVATE_PROPERTY_OFFSET \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_INCLASS_NO_PURE_DECLS \
+	VoiceAttackSamplePro_Plugins_VoiceAttack_Source_VoiceAttack_Public_ServerControl_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -54,11 +54,6 @@ bool AServerControl::Init()
 
 	tcpServer->portNum = setPortNum;
 
-//	if (Mysqlite == NULL)
-//	{
-//		Mysqlite = NewObject<USQLiteDatabase>();
-//	}
-
 	return true;
 }
 
@@ -94,59 +89,3 @@ void AServerControl::ClearMessage()
 {
 	tcpServer->ClearReceivedMessage();
 }
-
-//FString AServerControl::GetLoginNamePassword()
-//{
-//	return tcpServer->GetLoginInfo();
-//}
-
-//bool AServerControl::SetLoginNamePassword(FString loginNamePassword)
-//{
-//	tcpServer->SetLoginInfo(loginNamePassword);
-//
-//	return true;
-//}
-//
-//void AServerControl::ClearLoginNamePassword()
-//{
-//	tcpServer->ClearLoginInfo();
-//}
-///*
- void AServerControl::ClientConnections(TArray<class UFSocket*>& Clients)
-{
-
-	 if (tcpServer->Clients.Num() <= 0)
-	 {
-		 UFSocket *temp1 = NULL;
-		 Clients.AddUnique(temp1);
-
-		 //if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("DEBUG - after -- tcpServer->Clients.Num() <= 0"))); }
-		 
-		 return;
-	 }
-
-	for (int32 index = 0; index <= tcpServer->Clients.Num() - 1; index++)
-	{
-		//if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("DEBUG - before -- UFSocket *temp = NULL;"))); }
-		
-		UFSocket *temp = NULL;
-
-		temp->SetSocket(tcpServer->Clients[index]);
-
-		Clients.Add(temp);
-		
-	}
-	
-	//if (GEngine) { GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("DEBUG - after -- sockets.Add(temp);"))); }
-
-}
-
-void AServerControl::SendSockMessage(UFSocket *sock, FString message)
-{
-	if (sock != nullptr)
-	{
-		tcpServer->SendMessage(sock->GetSocket(), message + "\n");
-	}
-}
-
-//*/

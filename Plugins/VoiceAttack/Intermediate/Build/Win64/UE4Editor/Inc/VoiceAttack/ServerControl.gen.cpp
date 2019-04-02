@@ -18,11 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_VoiceAttack();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_ClearMessage();
-	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_ClientConnections();
-	VOICEATTACK_API UClass* Z_Construct_UClass_UFSocket_NoRegister();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_GetMessage();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_SendMessage();
-	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_SendSockMessage();
 	VOICEATTACK_API UFunction* Z_Construct_UFunction_AServerControl_SetMessage();
 // End Cross Module References
 	void AServerControl::StaticRegisterNativesAServerControl()
@@ -30,10 +27,8 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		UClass* Class = AServerControl::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ClearMessage", &AServerControl::execClearMessage },
-			{ "ClientConnections", &AServerControl::execClientConnections },
 			{ "GetMessage", &AServerControl::execGetMessage },
 			{ "SendMessage", &AServerControl::execSendMessage },
-			{ "SendSockMessage", &AServerControl::execSendSockMessage },
 			{ "SetMessage", &AServerControl::execSetMessage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -58,43 +53,6 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AServerControl_ClearMessage_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AServerControl_ClientConnections_Statics
-	{
-		struct ServerControl_eventClientConnections_Parms
-		{
-			TArray<UFSocket*> Clients;
-		};
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Clients;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Clients_Inner;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AServerControl_ClientConnections_Statics::NewProp_Clients = { "Clients", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ServerControl_eventClientConnections_Parms, Clients), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AServerControl_ClientConnections_Statics::NewProp_Clients_Inner = { "Clients", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UFSocket_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AServerControl_ClientConnections_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AServerControl_ClientConnections_Statics::NewProp_Clients,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AServerControl_ClientConnections_Statics::NewProp_Clients_Inner,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AServerControl_ClientConnections_Statics::Function_MetaDataParams[] = {
-		{ "Category", "TCPServer" },
-		{ "ModuleRelativePath", "Public/ServerControl.h" },
-		{ "ToolTip", "UFUNCTION(BlueprintCallable, Category = \"TCPServer\")\nvoid ClearLoginNamePassword();" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AServerControl_ClientConnections_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AServerControl, nullptr, "ClientConnections", sizeof(ServerControl_eventClientConnections_Parms), Z_Construct_UFunction_AServerControl_ClientConnections_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_ClientConnections_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AServerControl_ClientConnections_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_ClientConnections_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AServerControl_ClientConnections()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AServerControl_ClientConnections_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -177,43 +135,6 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AServerControl_SendSockMessage_Statics
-	{
-		struct ServerControl_eventSendSockMessage_Parms
-		{
-			UFSocket* sock;
-			FString message;
-		};
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_message;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_sock;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::NewProp_message = { "message", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ServerControl_eventSendSockMessage_Parms, message), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::NewProp_sock = { "sock", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ServerControl_eventSendSockMessage_Parms, sock), Z_Construct_UClass_UFSocket_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::NewProp_message,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::NewProp_sock,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::Function_MetaDataParams[] = {
-		{ "Category", "TCPServer" },
-		{ "ModuleRelativePath", "Public/ServerControl.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AServerControl, nullptr, "SendSockMessage", sizeof(ServerControl_eventSendSockMessage_Parms), Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AServerControl_SendSockMessage()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AServerControl_SendSockMessage_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_AServerControl_SetMessage_Statics
 	{
 		struct ServerControl_eventSetMessage_Parms
@@ -235,7 +156,6 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AServerControl_SetMessage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "TCPServer" },
 		{ "ModuleRelativePath", "Public/ServerControl.h" },
-		{ "ToolTip", "FString _message;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AServerControl_SetMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AServerControl, nullptr, "SetMessage", sizeof(ServerControl_eventSetMessage_Parms), Z_Construct_UFunction_AServerControl_SetMessage_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_SetMessage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AServerControl_SetMessage_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AServerControl_SetMessage_Statics::Function_MetaDataParams)) };
@@ -281,11 +201,9 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AServerControl_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AServerControl_ClearMessage, "ClearMessage" }, // 3380268375
-		{ &Z_Construct_UFunction_AServerControl_ClientConnections, "ClientConnections" }, // 132678495
 		{ &Z_Construct_UFunction_AServerControl_GetMessage, "GetMessage" }, // 1675977221
 		{ &Z_Construct_UFunction_AServerControl_SendMessage, "SendMessage" }, // 2678485239
-		{ &Z_Construct_UFunction_AServerControl_SendSockMessage, "SendSockMessage" }, // 1113705276
-		{ &Z_Construct_UFunction_AServerControl_SetMessage, "SetMessage" }, // 1538538644
+		{ &Z_Construct_UFunction_AServerControl_SetMessage, "SetMessage" }, // 3094980982
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AServerControl_Statics::Class_MetaDataParams[] = {
@@ -346,7 +264,7 @@ void EmptyLinkFunctionForGeneratedCodeServerControl() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AServerControl, 3840006843);
+	IMPLEMENT_CLASS(AServerControl, 3773743307);
 	template<> VOICEATTACK_API UClass* StaticClass<AServerControl>()
 	{
 		return AServerControl::StaticClass();

@@ -1,20 +1,9 @@
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Definitions.VoiceAttack.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\MyStruct.gen.cpp
+C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\ServerControl.gen.cpp
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Private/MyStruct.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack\Public\UFSocket.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Sockets/Public/Sockets.h
-c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\SocketTypes.h
-c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\intermediate\build\win64\ue4editor\inc\voiceattack\UFSocket.generated.h
-c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\intermediate\build\win64\ue4editor\inc\voiceattack\MyStruct.generated.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\ServerControl.gen.cpp
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/ServerControl.h
-c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\source\voiceattack\public\TCPServerImp.h
+C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack\Private\TCPServerImp.h
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\string
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\istream
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\ostream
@@ -54,6 +43,8 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.1
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xerrc.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\share.h
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\xstring_insert.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Sockets/Public/Sockets.h
+c:\program files\epic games\ue_4.22\engine\source\runtime\sockets\public\SocketTypes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime/Networking/Public/Networking.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
@@ -135,10 +126,6 @@ c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Comm
 c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketSender.h
 c:\program files\epic games\ue_4.22\engine\source\runtime\networking\public\Common/UdpSocketBuilder.h
 c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\intermediate\build\win64\ue4editor\inc\voiceattack\ServerControl.generated.h
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\UFSocket.gen.cpp
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\UFSocketBPLibrary.gen.cpp
-C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/UFSocketBPLibrary.h
-c:\users\corne\documents\unreal projects\voiceattacksamplepro\plugins\voiceattack\intermediate\build\win64\ue4editor\inc\voiceattack\UFSocketBPLibrary.generated.h
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\VoiceAttack.init.gen.cpp
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Inc\VoiceAttack\VoiceAttackBPLibrary.gen.cpp
 C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Source\VoiceAttack/Public/VoiceAttackBPLibrary.h

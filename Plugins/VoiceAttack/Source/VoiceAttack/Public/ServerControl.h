@@ -4,7 +4,6 @@
 
 #include "TCPServerImp.h"
 #include "Runtime/Networking/Public/Common/TcpListener.h"
-#include "UFSocket.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ServerControl.generated.h"
@@ -32,8 +31,6 @@ public:
 
 	FTCPServer *tcpServer = NULL;
 
-//	FString _message;
-
 	UFUNCTION(BlueprintCallable, Category = "TCPServer")
 	void SetMessage(FString message);
 
@@ -46,26 +43,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "TCPServer")
 	bool SendMessage(FString message, FString& messageOut);
 
-//	UFUNCTION(BlueprintCallable, Category = "TCPServer")
-//	bool QueryDatabase(FString loginInfo);
-
-	//UFUNCTION(BlueprintPure, Category = "TCPServer")
-	//FString GetLoginNamePassword();
-
-	//UFUNCTION(BlueprintCallable, Category = "TCPServer")
-	//bool SetLoginNamePassword(FString loginNamePassword);
-
-	//UFUNCTION(BlueprintCallable, Category = "TCPServer")
-	//void ClearLoginNamePassword();
-
-	UFUNCTION(BlueprintCallable, Category = "TCPServer")
-	void ClientConnections(TArray<class UFSocket*>& Clients);
-
-	UFUNCTION(BlueprintCallable, Category = "TCPServer")
-	void SendSockMessage(UFSocket *sock, FString message);
-
-//-------------------------------------------------------------
-
 	UPROPERTY(BlueprintReadWrite, Category = "TCPServer")
 	int32 setConnectionTimeout;
 
@@ -74,10 +51,6 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "TCPServer")
 	int32 setPortNum;
-
-
-//private:
-//	class USQLiteDatabase *Mysqlite = NULL;
 
 };
 

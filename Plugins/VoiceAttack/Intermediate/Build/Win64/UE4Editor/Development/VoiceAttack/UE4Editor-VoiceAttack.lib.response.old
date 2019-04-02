@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VoiceAttack.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Intermediate\Build\Win64\VoiceAttackSampleProEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\ServerControl.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\TCPServerImp.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\UFSocket.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\UFSocketBPLibrary.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\VoiceAttackBPLibrary.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.gen.cpp.obj"
+"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Default.rc2.res"
+/OUT:"C:\Users\corne\Documents\Unreal Projects\VoiceAttackSamplePro\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\UE4Editor-VoiceAttack.lib"
+/INCLUDE:IMPLEMENT_MODULE_VoiceAttack
