@@ -3,7 +3,6 @@
 	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
-	"Enterprise": false,
 	"Modules": [
 		{
 			"Name": "VoiceAttackSamplePro",
@@ -18,7 +17,8 @@
 		},
 		{
 			"Name": "VoiceAttackPlugin",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8d7b4d6f3c8f402cb190faca3958696b"
 		}
 	]
 }
