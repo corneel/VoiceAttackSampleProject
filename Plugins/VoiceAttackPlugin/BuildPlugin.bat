@@ -1,1 +1,0 @@
-"C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -Plugin="C:\Users\corne\Documents\Unreal Projects\VoiceAttackPlugin\Plugins\VoiceAttackPlugin\VoiceAttackPlugin.uplugin" -Targetplatforms=Win64 -Package="C:\Users\corne\Documents\Unreal Projects\Package\BuildPlugin\Build"
