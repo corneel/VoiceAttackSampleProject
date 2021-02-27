@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VoiceAttack.cpp.obj": [
+			"ServerControl.cpp.obj",
+			"TCPServerImp.cpp.obj",
+			"VoiceAttack.cpp.obj",
+			"VoiceAttackBPLibrary.cpp.obj"
+		],
+		"Module.VoiceAttack.gen.cpp.obj": [
+			"ServerControl.gen.cpp.obj",
+			"VoiceAttack.init.gen.cpp.obj",
+			"VoiceAttackBPLibrary.gen.cpp.obj"
+		]
+	}
+}

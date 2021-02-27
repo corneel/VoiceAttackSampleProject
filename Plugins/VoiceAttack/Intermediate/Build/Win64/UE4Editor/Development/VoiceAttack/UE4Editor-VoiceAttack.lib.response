@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VoiceAttack.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Augmented Enterprise\VoiceAttackSampleProject\Intermediate\Build\Win64\VoiceAttackSampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Augmented Enterprise\VoiceAttackSampleProject\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.cpp.obj"
+"D:\Unreal Projects\Augmented Enterprise\VoiceAttackSampleProject\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Module.VoiceAttack.gen.cpp.obj"
+"D:\Unreal Projects\Augmented Enterprise\VoiceAttackSampleProject\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Augmented Enterprise\VoiceAttackSampleProject\Plugins\VoiceAttack\Intermediate\Build\Win64\UE4Editor\Development\VoiceAttack\UE4Editor-VoiceAttack.lib"
+/INCLUDE:IMPLEMENT_MODULE_VoiceAttack

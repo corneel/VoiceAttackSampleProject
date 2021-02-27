@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "4.26.0",
+	"FriendlyName": "VoiceAttackPlugin",
+	"Description": "The VoiceAttack Plugin provides integration between the VoiceAttack product and Unreal Engine.",
+	"Category": "Other",
+	"CreatedBy": "Corneel Booysen",
+	"CreatedByURL": "https://augmentedenterprise.com",
+	"DocsURL": "https://github.com/corneel/VoiceAttackSampleProject/wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3529B87A40531921A0D2DCB6A90F2A44",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VoiceAttack",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
